@@ -13,27 +13,27 @@ import java.util.Date;
  */
 public class OSSClientConstants {
     //阿里云API的上传完成后响应域名
-    public static final String DOMAIN_PREFIX = "https://shstudy.shec.edu.cn";
+    public static final String DOMAIN_PREFIX = "https://***.cn";
 
     //阿里云API的外网域名
-//    public static final String ENDPOINT = "http://xxpt.oss-cn-shanghai-shltjyy-d01-a.procloud.10010sh.cn";
-    public static final String ENDPOINT = "http://weixiao.oss-cn-shanghai-shltjyy-d01-a.procloud.10010sh.cn";
-//    public static final String ENDPOINT = "http://oss-cn-shanghai-shltjyy-d01-a.procloud.cn/weixiao";
+//    public static final String ENDPOINT = "http://***.cn";
+    public static final String ENDPOINT = "http://***.cn";
+//    public static final String ENDPOINT = "http://***/weixiao";
     //阿里云API的密钥Access Key ID
-//    public static final String ACCESS_KEY_ID = "0aI5HO2SxgO8jwZW";
+//    public static final String ACCESS_KEY_ID = "0aI***xgO8jwZW";
 //    //阿里云API的密钥Access Key Secret
-//    public static final String ACCESS_KEY_SECRET = "Vf8WS7j0nwnaeqEQ8jFjGsSC0f7mvZ";
+//    public static final String ACCESS_KEY_SECRET = "Vf8WS7j0***FjGsSC0f7mvZ";
     //阿里云API的密钥Access Key ID
-    public static final String ACCESS_KEY_ID = "XxhTKc77Ie4N0Ssa";
+    public static final String ACCESS_KEY_ID = "XxhTKc***sa";
     //阿里云API的密钥Access Key Secret
-    public static final String ACCESS_KEY_SECRET = "Vz6v3PD6iaskanPoDuMPg5ZWQTmsY0";
+    public static final String ACCESS_KEY_SECRET = "Vz6v3PD6ias***5ZWQTmsY0";
     //阿里云API的bucket名称
-//    public static final String BACKET_NAME = "xxpt";
-    public static final String BACKET_NAME = "weixiao";
+//    public static final String BACKET_NAME = "x***pt";
+    public static final String BACKET_NAME = "we***ao";
 //    阿里云API的文件夹名称
-    public static final String FOLDER_PREFIX="smile-resource/";
-    public static final String FOLDER="images/upload/";
-    public static final String FOLDER_VIDEO="images/upload/";
+    public static final String FOLDER_PREFIX="smile***e/";
+    public static final String FOLDER="images/upl***d/";
+    public static final String FOLDER_VIDEO="images/up***d/";
     public static final String FORMAT = new SimpleDateFormat("yyyyMMdd").format(new Date());
     public static final String FORMATS = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
 }
